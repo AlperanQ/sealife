@@ -1,0 +1,28 @@
+@import "bootstrap/scss/mixins";
+@import "../../styles/variables.scss";
+.servicespagetext {
+  font-size: 20px;
+  margin: 50px;
+  @include media-breakpoint-down(sm) {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+.images{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+}
+.service-image{
+    width:500px;
+    height:600px;
+}
+.carousel-slide{
+    width:500px;
+    height:600px;
+}
+.carousel-fade{
+    width:500px;
+    height:600px;
+}

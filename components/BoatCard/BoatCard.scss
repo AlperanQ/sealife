@@ -1,0 +1,42 @@
+.card {
+  width: 22rem;
+}
+.card-body {
+  p {
+    margin: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+// .yachts {
+//   padding: 0 100px;
+// }
+.icons {
+  p {
+    font-size: 14px;
+  }
+}
+
+.card-title {
+  font-weight: 700;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.icon-card {
+  svg {
+    color: #0087ff;
+  }
+  p {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+.reservation-button {
+  background-color: rgb(255, 191, 0) !important;
+  color: white;
+}
